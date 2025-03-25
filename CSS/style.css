@@ -1,0 +1,68 @@
+/* seletores */
+
+/* Zera as configurações*/
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+
+    /*Cor do texto*/
+    color: brown;
+    /*Tipo da fonte*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*Tamanho da fonte*/
+    font-size: 22pt;
+    /*Deixar negrito*/
+    font-weight: bold;
+    /*Centralizar texto*/
+    text-align: center;
+    /*Respiro (Espaço) dos elemntos*/
+    padding: 20px;
+   
+    
+}
+
+h2{
+    background-color: brown;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+section{
+
+    margin: 15px;
+
+}
+
+p{
+
+    text-align: justify;
+    padding-top: 10px;
+  
+   
+}
+
+footer{
+
+    background-color: brown;
+    margin: 15px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+h2:hover{
+
+    color: rgb(248, 246, 243);
+    background-color: rgb(73, 10, 221);
+    
+}
+
