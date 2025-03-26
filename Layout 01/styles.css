@@ -1,0 +1,69 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o layout da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contêiner principal */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Layout da parte principal da página */
+.main {
+    display: flex;
+    flex: 1;
+    margin: 20px 0;
+}
+
+/* Barra lateral */
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    position: relative;
+}
+
+/* Conteúdo principal */
+.content {
+    background-color: white;
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
