@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Tabelas</title>
+</head>
+<body>
+    <style>
+        .tabela1{
+
+                background-color: rgb(182, 182, 223);
+        }
+        .linha-tabela2{
+                        background-color: rgb(166, 237, 237);
+        }
+    </style>
+    <h1>Tabelas no HTML</h1>
+        <br>
+            <table border="1px" class="tabela1">
+                <thead>
+                    <tr>
+                        NOME
+                    </tr>
+                    <tr>
+                        TEL
+                    </tr>
+                    <tr>
+                        E-MAIL
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                    <td>Ana Luíza</td>
+                    <td>(75) 9999-9999</td>
+                    <td>anal@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Paul Menez</td>
+                    <td>(71) 8899-9999</td>
+                    <td>pal@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Miakuda Tuco</td>
+                    <td>(41) 8199-9999</td>
+                    <td>miaku@gmail.com</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <h2>
+                Tabela de Profissões
+            </h2>
+
+                <table border="1" width="400px" class="tabela2">
+                    <tr class="linha-tabela2">
+                        <td>Cargo</td>
+                        <td>Salário</td>
+                        <td>Qualificação</td>
+                    </tr>
+                    <tr>
+                        <td>Desenvolvedor de Jogos</td>
+                        <td>R$ 7.000</td>
+                        <td>Nível Básico</td>
+                    </tr>
+                    <tr>
+                        <td>Engenheiro Civil</td>
+                        <td>R$ 11.296</td>
+                        <td>Nível Superior</td>
+                    </tr>
+                    <tr>
+                        <td>Téc em Mecânica</td>
+                        <td>R$ 2.800</td>
+                        <td>Nível Tácnico</td>
+                    </tr>
+                </table>
+
+                <h2> Tabela de Funcionários</h2>
+
+                <table border="1" width="500px class="tabela3"">
+                    <tr>
+                        <th colspan="4">Tabela de Cargos e Salários</th>
+                    </tr>
+                    <tr>
+                        <td align="center">Nome</td>
+                        <td align="center">Cargo</td>
+                        <td align="center">Empresa</td>
+                        <td align="center">Satus</td>
+                    </tr>
+                    <tr>
+                        <td>Maria José</td>
+                        <td align="center">Ass. Adminidtrativo</td>
+                        <td align="center">VIPAL</td>
+                        <td align="center"><button>Cadastrar</button></td>
+    
+                    </tr>
+                    <tr>
+                        <td>Pedro Noa</td>
+                        <td align="center">Advogado</td>
+                        <td align="center">VIVARA</td>
+                        <td align="center"><button>Cadastrar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Sergio Malandro</td>
+                        <td align="center">Cozinheiro</td>
+                        <td align="center">Cookie Piska</td>
+                        <td align="center"><button>Cadastrar</button></td>
+                    </tr>
+                </table>
+</body>
+</html>

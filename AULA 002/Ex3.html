@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Inputs</title>
+</head>
+<body>
+    <style>
+        select{
+
+            width: 180px;
+            height: 22px;
+        }
+        input[type="date"]{
+
+            width: 180px;
+            height: 20px;
+        }
+    </style>
+    <form action="">
+        <div>
+            <label> 
+                <strong>Nome</strong>
+            </label>
+        </div>
+        <div>
+            <input type="text">
+        </div>
+        <div>
+            <label> 
+                <strong>Data de Nascimento</strong>
+            </label>
+        </div>
+        <div>
+            <input type="date">
+        </div>
+        <div>
+            <label> 
+                <strong>Cidade</strong>
+            </label>
+        </div>
+        <div>
+            <select name="" id="">
+                <option value=""></option>
+                <option value="Salvador">Salvador</option>
+                <option value="Feira de Santana">Feira de Santana</option>
+                <option value="Rio de Contas">Rio de Contas</option>
+            </select>
+        </div>
+        <div>
+            <label> 
+                <strong>Sexo</strong>
+            </label>
+        </div>
+        <div>
+           <label for="">Masculino</label>
+           <input type="radio" name="sexo" value="Masculino" id="Masculino">
+           <label for="">Feminino</label>
+           <input type="radio" name="sexo" value="Feminino" id="Feminino">
+           <label for="">Outros</label>
+           <input type="radio" name="sexo"  value="Outros">
+        </div>
+        <div>
+            <button type="submit">ENVIAR</button>
+        </div>
+    </form>
+</body>
+</html>
