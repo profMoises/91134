@@ -1,0 +1,268 @@
+/* Reset básico: remove margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte */
+    line-height: 1.5; /* Define a altura da linha */
+}
+
+/* Estilo do cabeçalho e menu */
+header {
+    background-color: #333; /* Fundo escuro */
+    padding: 10px 0; /* Espaçamento vertical */
+}
+
+/* Remove os marcadores da lista e centraliza os itens */
+nav ul {
+    list-style: none; /* Remove pontos da lista */
+    display: flex; /* Coloca os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+}
+
+/* Estilo de cada item de menu */
+nav ul li {
+    position: relative; /* Necessário para o dropdown */
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+/* Estilo dos links do menu */
+nav ul li a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 10px; /* Espaçamento interno */
+    display: block; /* Ocupa toda a área do link */
+}
+
+/* Cor de fundo ao passar o mouse nos links */
+nav ul li a:hover {
+    background-color: #444; /* Fundo escuro ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo do dropdown (sub-menu) */
+.dropdown-content {
+    display: none; /* Esconde o dropdown por padrão */
+    position: absolute; /* Posiciona o dropdown */
+    background-color: #444; /* Fundo do dropdown */
+    top: 100%; /* Alinha abaixo do item pai */
+    left: 0; /* Alinha à esquerda do item pai */
+    min-width: 150px; /* Largura mínima do dropdown */
+    z-index: 1; /* Garante que o dropdown apareça sobre o conteúdo */
+}
+
+/* Estilo dos itens do dropdown */
+.dropdown-content li {
+    margin: 0; /* Remove margens extras */
+}
+
+/* Estilo dos links dentro do dropdown */
+.dropdown-content li a {
+    padding: 10px; /* Espaçamento interno */
+    color: white; /* Cor do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Cor de fundo ao passar o mouse nos links do dropdown */
+.dropdown-content li a:hover {
+    background-color: #555; /* Fundo ao passar o mouse */
+}
+
+/* Mostra o dropdown ao passar o mouse sobre o item pai */
+.dropdown:hover .dropdown-content {
+    display: block; /* Exibe o dropdown */
+}
+
+
+
+
+
+
+/* Estilo da área principal do conteúdo */
+main {
+    padding: 20px; /* Espaçamento interno da seção principal */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do título principal */
+main h1 {
+    font-size: 36px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo da imagem */
+main img {
+    max-width: 100%; /* A imagem não ultrapassa a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 20px; /* Espaçamento acima da imagem */
+}
+
+
+
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333; /* Fundo escuro */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento vertical */
+    position: fixed; /* Fixa o rodapé no final da página */
+    bottom: 0; /* Alinha o rodapé ao final da página */
+    width: 100%; /* O rodapé ocupa 100% da largura da tela */
+    height: 10%;
+}
+
+
+
+
+
+
+
+
+/*SOBRE HTML*/
+
+
+
+/* Estilo geral para as seções */
+.about, .mission, .team {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Título principal */
+h1, h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Texto comum */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+
+/* Estilo para a seção de Missão, Visão e Valores */
+.mission-values {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mission-item {
+    flex: 1;
+    min-width: 280px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.mission-item h3 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.mission-item p, .mission-item ul {
+    color: #555;
+    font-size: 16px;
+}
+
+.mission-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    height: 10%;
+}
+
+
+
+
+
+
+
+/*CONTATO.HTML*/
+
+/* Estilo para a seção de contato */
+.contact {
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact input[type="text"], 
+.contact input[type="email"], 
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact textarea {
+    resize: none; /* Desabilita o redimensionamento */
+}
+
+.contact button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Estilo do formulário no mobile */
+@media (max-width: 768px) {
+    .contact {
+        padding: 15px;
+    }
+
+    .contact form {
+        padding: 15px;
+    }
+}
