@@ -1,4 +1,4 @@
-/* Reset básico: remove margens e preenchimentos padrão */
+/* Reset básico: remove margens e preenchimento padrão */
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +11,14 @@ body {
     line-height: 1.5; /* Define a altura da linha */
 }
 
+
+
+
 /* Estilo do cabeçalho e menu */
 header {
     background-color: #333; /* Fundo escuro */
     padding: 10px 0; /* Espaçamento vertical */
+   
 }
 
 /* Remove os marcadores da lista e centraliza os itens */
@@ -23,6 +27,11 @@ nav ul {
     display: flex; /* Coloca os itens em linha */
     justify-content: center; /* Centraliza os itens */
 }
+
+
+
+
+
 
 /* Estilo de cada item de menu */
 nav ul li {
@@ -60,6 +69,8 @@ nav ul li a:hover {
     margin: 0; /* Remove margens extras */
 }
 
+
+
 /* Estilo dos links dentro do dropdown */
 .dropdown-content li a {
     padding: 10px; /* Espaçamento interno */
@@ -72,6 +83,12 @@ nav ul li a:hover {
     background-color: #555; /* Fundo ao passar o mouse */
 }
 
+
+
+
+
+
+
 /* Mostra o dropdown ao passar o mouse sobre o item pai */
 .dropdown:hover .dropdown-content {
     display: block; /* Exibe o dropdown */
@@ -81,7 +98,7 @@ nav ul li a:hover {
 
 
 
-
+                                              
 /* Estilo da área principal do conteúdo */
 main {
     padding: 20px; /* Espaçamento interno da seção principal */
@@ -94,14 +111,13 @@ main h1 {
     margin-bottom: 20px; /* Espaçamento abaixo do título */
 }
 
+
 /* Estilo da imagem */
 main img {
     max-width: 100%; /* A imagem não ultrapassa a largura da tela */
     height: auto; /* Mantém a proporção da imagem */
     margin-top: 20px; /* Espaçamento acima da imagem */
 }
-
-
 
 
 
