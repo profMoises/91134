@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color: #002244;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  input, button {
+    margin: 5px 0;
+    padding: 5px;
+  }
+  button {
+    background: #002244;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    
+  }
+  button:hover {
+    background: #9370db;
+  }
+  
+
+  a{
+
+    color: darkblue;
+    text-decoration: none;
+    
+  }
+
+  table tr td{
+
+    border: 1px solid black;
+  }
+
+
+  .btn{
+
+    background: #002244;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+
+  }

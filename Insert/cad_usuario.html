@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulário de Contato</h1>
+  <form id="form"  onsubmit="return validar()" method="post" action="inser.php">
+    <input type="text"  id="nome" name="nome" placeholder="Nome"><br>
+    <input type="tel" id="tel" name="telefone" placeholder="Telefone"><br>
+    <input type="email" id="email" name="email" placeholder="Email"><br>
+    <button class="btn" type="submit">Cadastrar</button>
+  </form>
+  <a href="sair.php"><button class="btn">Sair</button></a>
+  <a href="listar.php">Listar Usuários</a>
+  <script src="script.js"></script>
+</body>
+</html>
